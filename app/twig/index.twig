@@ -7,107 +7,44 @@
         </div>
     </div>
 
-    <!-- START main-page__welcome -->
-    <div class="main-page__welcome">
-        <div class="uk-container uk-container-center">
-            <div class="uk-grid">
-                <div class="uk-width-medium-1-3 main-page_welcome-hi fz100 uk-text-right light-grey">h1!</div>
-                <div class="uk-width-medium-2-3">
-                    <div class="block-title blue-color main-page__welcome-title mb20">Welcome to the world of web design</div>
-                    <div class="main-page__welcome-text">Welcome to our web site! We are a digital design agency and we are all about discovering new designs and approaches. We have a strong belief that a powerful web design can make any business (either a startup or a corporation with years on the market) a success.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- // END main-page__welcome -->
-
-    <!-- START features -->
-    <div class="features">
-        <div class="uk-container-center uk-container">
-            <div class="block-title dark-grey">Наши преимущества</div>
-            <div class="uk-grid">
-                <div class="uk-width-medium-1-2">
-                    <div class="features-item">
-                        <i class="icon-features-1"></i>
-                        <div class="features-content">
-                            <p class="features-title">Extensive Documentation</p>
-                            <div class="features-text">
-                                <p>We provide our clients with detailed documentation on correct
-                                    operation of their web sites.</p>
-                            </div>
+    <div class="inside-relative-container">
+        <!-- START main-page__welcome -->
+        <div class="main-page__welcome section">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+                    <div class="uk-width-medium-1-3 main-page_welcome-hi fz100 uk-text-right light-grey">h1!</div>
+                    <div class="uk-width-medium-2-3">
+                        <div class="block-title blue-color main-page__welcome-title mb20">Welcome to the world of web
+                            design
                         </div>
-                    </div>
-                </div>
-                <div class="uk-width-medium-1-2">
-                    <div class="features-item">
-                        <i class="icon-features-1"></i>
-                        <div class="features-content">
-                            <p class="features-title">Extensive Documentation</p>
-                            <div class="features-text">
-                                <p>We provide our clients with detailed documentation on correct
-                                    operation of their web sites.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-width-medium-1-2">
-                    <div class="features-item">
-                        <i class="icon-features-1"></i>
-                        <div class="features-content">
-                            <p class="features-title">Extensive Documentation</p>
-                            <div class="features-text">
-                                <p>We provide our clients with detailed documentation on correct
-                                    operation of their web sites.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-width-medium-1-2">
-                    <div class="features-item">
-                        <i class="icon-features-1"></i>
-                        <div class="features-content">
-                            <p class="features-title">Extensive Documentation</p>
-                            <div class="features-text">
-                                <p>We provide our clients with detailed documentation on correct
-                                    operation of their web sites.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-width-medium-1-2">
-                    <div class="features-item">
-                        <i class="icon-features-1"></i>
-                        <div class="features-content">
-                            <p class="features-title">Extensive Documentation</p>
-                            <div class="features-text">
-                                <p>We provide our clients with detailed documentation on correct
-                                    operation of their web sites.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-width-medium-1-2">
-                    <div class="features-item">
-                        <i class="icon-features-1"></i>
-                        <div class="features-content">
-                            <p class="features-title">Extensive Documentation</p>
-                            <div class="features-text">
-                                <p>We provide our clients with detailed documentation on correct
-                                    operation of their web sites.</p>
-                            </div>
+                        <div class="main-page__welcome-text">Welcome to our web site! We are a digital design agency and
+                            we are all about discovering new designs and approaches. We have a strong belief that a
+                            powerful web design can make any business (either a startup or a corporation with years on
+                            the market) a success.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- // END main-page__welcome -->
+
+        {% include "widgets/features.twig" %}
+
+        {% include "widgets/last-works.twig" %}
+
+        {% include "widgets/feedbacks.twig" %}
+
+        {% include "widgets/works-statistic.twig" %}
+
+        {% include "widgets/blogs-widget.twig" %}
+        <div class="mb40"></div>
+
+        {% include "widgets/pricing-widget.twig" %}
+
+        <footer class="section">
+            <div class="uk-container uk-container-center">
+                {% include "widgets/form.twig" %}
+            </div>
+        </footer>
     </div>
-    <!-- // END features -->
-
-    {% include "widgets/last-works.twig" %}
-
-    {% include "widgets/feedbacks.twig" %}
-
-    {% include "widgets/works-statistic.twig" %}
-
-    {% include "widgets/blogs-widget.twig" %}
 {% endblock %}

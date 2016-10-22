@@ -1,0 +1,25 @@
+
+.icon-clock:before { content: '\e800'; } /* '' */
+.icon-cup:before { content: '\e801'; } /* '' */
+.icon-gift:before { content: '\e802'; } /* '' */
+.icon-puzzle-outline:before { content: '\e803'; } /* '' */
+.icon-umbrella:before { content: '\e804'; } /* '' */
+.icon-share:before { content: '\e805'; } /* '' */
+.icon-star-empty:before { content: '\e806'; } /* '' */
+.icon-glasses:before { content: '\e807'; } /* '' */
+.icon-ok-circled2:before { content: '\e808'; } /* '' */
+.icon-cancel-circled2:before { content: '\e809'; } /* '' */
+.icon-home:before { content: '\e80a'; } /* '' */
+.icon-zoom-in:before { content: '\e80b'; } /* '' */
+.icon-feather:before { content: '\e833'; } /* '' */
+.icon-desktop:before { content: '\f108'; } /* '' */
+.icon-dollar:before { content: '\f155'; } /* '' */
+.icon-rouble:before { content: '\f158'; } /* '' */
+.icon-building-filled:before { content: '\f1ad'; } /* '' */
+.icon-shopping-basket:before { content: '\f291'; } /* '' */
+.icon-vimeo:before { content: '\f306'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-gplus:before { content: '\f30f'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */
+.icon-skype:before { content: '\f339'; } /* '' */
