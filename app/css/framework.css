@@ -10401,7 +10401,7 @@ a:hover {
 }
 
 .blue-color {
-  color: #21b6fc;
+  color: #426782;
 }
 
 .dark-grey {
@@ -10421,7 +10421,7 @@ a:hover {
 }
 
 .blue-link {
-  color: #21b6fc;
+  color: #426782;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
@@ -10493,15 +10493,15 @@ textarea {
 }
 
 .blue-bg {
-  background: #21b6fc;
+  background: #426782;
 }
 
 .blue-button {
-  background: #21b6fc;
+  background: #426782;
 }
 
 .hover-blue:hover {
-  color: #21b6fc;
+  color: #426782;
 }
 
 .fullscreen-images-wrapper img {
